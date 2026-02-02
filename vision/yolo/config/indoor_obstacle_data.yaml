@@ -3,7 +3,7 @@
 # License: CC BY 4.0
 
 # Dataset paths (absolute)
-path: /Users/youhanasheriff/Desktop/Mako/r_and_d_projects/models_edge_devices/vlm/data/IndoorObstacle Detection.v9i.yolov11
+path: /Users/youhanasheriff/Desktop/Work/Mako/r_and_d_projects/models_edge_devices/vlm/data/IndoorObstacle Detection.v9i.yolov11
 train: train/images
 val: valid/images
 
