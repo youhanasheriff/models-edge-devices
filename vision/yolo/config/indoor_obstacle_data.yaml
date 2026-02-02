@@ -1,0 +1,27 @@
+# Indoor Obstacle Detection Dataset Configuration
+# Source: Roboflow - IndoorObstacle Detection v9
+# License: CC BY 4.0
+
+# Dataset paths (absolute)
+path: /Users/youhanasheriff/Desktop/Mako/r_and_d_projects/models_edge_devices/vlm/data/IndoorObstacle Detection.v9i.yolov11
+train: train/images
+val: valid/images
+
+# Number of classes
+nc: 8
+
+# Class names (index: name)
+names:
+  0: closed_door
+  1: door
+  2: elevator
+  3: escalator
+  4: footpath
+  5: obstacle
+  6: person
+  7: wall
+
+# Safety level mapping for JSON output (used by inference pipeline)
+# High: Immediate danger, requires alert
+# Medium: Potential hazard, monitor
+# Low: Environmental awareness

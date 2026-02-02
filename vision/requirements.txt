@@ -1,0 +1,31 @@
+# YOLO11 Training & Inference for Edge Deployment
+# Target: RDK X5 (10 TOPS BPU) & QCS6490 (Hexagon NPU)
+
+# Core YOLO framework
+ultralytics>=8.3.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=9.4.0
+numpy>=1.23.0
+
+# Export formats
+onnx>=1.14.0
+onnxruntime>=1.16.0
+onnxsim>=0.4.33
+
+# Configuration & utilities
+PyYAML>=6.0
+tqdm>=4.66.0
+
+# Visualization & analysis
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Performance profiling (optional)
+# py-spy>=0.3.14
+# memory-profiler>=0.61.0

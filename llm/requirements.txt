@@ -1,0 +1,13 @@
+# Unsloth Fine-tuning Dependencies
+unsloth
+datasets
+trl
+transformers
+accelerate
+peft
+bitsandbytes
+torch
+huggingface_hub
+
+# Optional: MLX for Apple Silicon native training
+# mlx-lm

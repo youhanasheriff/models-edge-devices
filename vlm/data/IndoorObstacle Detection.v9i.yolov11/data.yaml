@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['closed_door', 'door', 'elevator', 'escalator', 'footpath', 'obstacle', 'person', 'wall']
+
+roboflow:
+  workspace: indooroutdoornavigation
+  project: indoor-obstacle-detection
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/indooroutdoornavigation/indoor-obstacle-detection/dataset/9
