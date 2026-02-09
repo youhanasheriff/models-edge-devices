@@ -14,7 +14,7 @@ sys.path.append(str(current_dir))
 from inference import IndoorObstacleDetector, main as inference_main
 
 # Absolute path to the trained model
-MODEL_PATH = "/Users/youhanasheriff/Desktop/Work/Mako/r_and_d_projects/models_edge_devices/vision/yolo/outputs/runs/indoor_obstacle_yolo11n_20260202_1911/weights/best.pt"
+MODEL_PATH = "/Users/youhanasheriff/Desktop/Work/Mako/r_and_d_projects/models_edge_devices/vision/yolo/outputs/runs/indoor_obstacle_yolo11n_150ep_20260205/weights/best.pt"
 
 def run():
     print(f"Loading model from: {MODEL_PATH}")
