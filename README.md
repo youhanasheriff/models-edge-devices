@@ -1,5 +1,7 @@
 # Edge AI: Modular Split Architecture for On-Device Reasoning
 
+[![CI](https://github.com/youhanasheriff/models-edge-devices/actions/workflows/ci.yml/badge.svg)](https://github.com/youhanasheriff/models-edge-devices/actions/workflows/ci.yml)
+
 > **An edge-AI deployment strategy** — pairing lightweight real-time vision detectors with a LoRA-fine-tuned small language model so safety-critical reasoning runs *on-device*, within tight memory, latency, and power budgets.
 >
 > **Target hardware:** RDK X5 (8GB RAM, 10 TOPS BPU) & Qualcomm QCS6490 (12 TOPS NPU)

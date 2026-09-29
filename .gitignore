@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Training / experiment output
+runs/
+
+# FiftyOne local database and cache
+.fiftyone/
+fiftyone_db/
+fiftyone/
+
+# Editors
+.idea/
+.vscode/
